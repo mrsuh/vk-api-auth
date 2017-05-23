@@ -14,8 +14,8 @@ composer require mrsuh/vk-api-auth:1.*
 <?php
 $params = [
     'app_id' =>  58384343// application id
-     username' 'mrsuh6@gmail.com'// username
-     password' '1Gw738hfud9828hf3XbSrQ3'// password
+     username' => 'mrsuh6@gmail.com'// username
+     password' => '1Gw738hfud9828hf3XbSrQ3'// password
      scope => ['video', 'friends', 'messages']// list of permissions
 ];
 
