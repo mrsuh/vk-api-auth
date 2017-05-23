@@ -1,6 +1,6 @@
 {
     "name": "mrsuh/vk-api",
-    "type": "symfony-bundle",
+    "type": "library",
     "description": "API for social network vkontakte",
     "keywords" : ["api", "vk", "vkontakte"],
     "homepage": "https://github.com/mrsuh/vk-api",
@@ -11,14 +11,14 @@
         "role": "Developer"
     }],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.6.0",
         "guzzlehttp/guzzle": "^6.1",
         "behat/mink": "^1.7",
         "behat/mink-goutte-driver": "^1.2"
     },
     "autoload": {
         "psr-0": {
-            "Mrsuh\\VkApi": ""
+            "Mrsuh": ""
         }
     }
 }
