@@ -19,7 +19,7 @@ $params = [
      'scope' => ['video', 'friends', 'messages']// list of permissions
 ];
 
-$auth = new Mrsuh/Auth($params);
+$auth = new Mrsuh\Service\AuthService($params);
 $token = $auth->getToken();
 
 //make requiests with token
