@@ -22,7 +22,7 @@ $params = [
 $auth = new Mrsuh\Service\AuthService($params);
 $token = $auth->getToken();
 
-//make requiests with token
+//make requests with token
 ```
 
 helpful links:
