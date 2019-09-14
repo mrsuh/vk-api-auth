@@ -5,7 +5,7 @@
 First you must create your application at vk.com's [applications page] (https://vk.com/apps?act=manage)
 
 ```bash
-composer require mrsuh/vk-api-auth:1.*
+composer require mrsuh/vk-api
 ```
 
 ## Usage
