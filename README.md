@@ -13,10 +13,10 @@ composer require mrsuh/vk-api
 ``` php
 <?php
 $params = [
-    'app_id' =>  58384343// application id
-     'username' => 'mrsuh6@gmail.com'// username
-     'password' => '1Gw738hfud9828hf3XbSrQ3'// password
-     'scope' => ['video', 'friends', 'messages']// list of permissions
+     'app_id'   =>  0,
+     'username' => 'username',
+     'password' => 'password',
+     'scope'    => ['video', 'friends', 'messages']// list of permissions
 ];
 
 $auth = new Mrsuh\Service\AuthService($params);
